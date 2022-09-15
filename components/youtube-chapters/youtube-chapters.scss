@@ -1,0 +1,33 @@
+/*
+* This first rule is required to fix a non breaking space that is injected.
+*/
+.non-breaking-space {
+  display: none;
+}
+
+/*
+* Provides styles for chapterCreation.
+*/
+
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1.5rem;
+  &:focus {
+    outline: 2px dashed red;
+  }
+
+  svg {
+    fill: #fff;
+    margin-left: 15px;
+    width: 26px;
+  }
+}
+
+.youtube-chapters__add {
+  background-color: #0a3463;
+  border: 2px solid #fe8a18;
+  color: #fff;;
+  align-items: center;
+}
